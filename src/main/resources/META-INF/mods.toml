@@ -15,11 +15,11 @@ license="${mod_license}"
 # A list of mods - how many allowed here is determined by the individual mod loader
 [[mods]] #mandatory
 # The modid of the mod
-modId="henny_mod" #mandatory
+modId="henny_mod"
 # The version number of the mod
-version="0.0.1-1.20.1" #mandatory
+version="0.0.1-1.20.1"
 # A display name for the mod
-displayName="Henny Mod" #mandatory
+displayName="Henny Mod"
 # A URL to query for updates for this mod. See the JSON update specification https://docs.minecraftforge.net/en/latest/misc/updatechecker/
 #updateJSONURL="https://change.me.example.invalid/updates.json" #optional
 # A URL for the "homepage" for this mod, displayed in the mod UI
@@ -39,7 +39,7 @@ authors="Adam Christley" #optional
 #displayTest="MATCH_VERSION" # MATCH_VERSION is the default if nothing is specified (#optional)
 
 # The description text for the mod (multi line!) (#mandatory)
-description='''${mod_description}'''
+description='''This mod adds the infamous henny drink to the game Minecraft!!'''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.henny_mod]] #optional
     # the modid of the dependency

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures":
+  {
+    "layer0": "henny_mod:item/sr2e4e6b14d38aws3"
+  }
+}
